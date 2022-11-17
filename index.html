@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Bootstrap Site</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/travel-logo.png" alt="Logo" width="40" height="30"
+                        class="d-inline-block align-text-top">
+                    Travel
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Agencia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Destinos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">EUA</a></li>
+                                <li><a class="dropdown-item" href="#">Europa</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">America do Sul</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="btn btn-primary" href="#">Contato</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Fim nav-bar -->
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="images/rio.jpg" class="d-block w-100" alt="Rio">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Brasil</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/eua.jpg" class="d-block w-100" alt="EUA">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Estados Unidos</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/london.jpg" class="d-block w-100" alt="Europa">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Europa</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Fim do Carousel -->
+        </div>
+
+        <section class="row">
+            <div class="col-12 text-center mt-5 mb-5">
+                <h1>Planos</h1>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/disneyland.jpg" class="card-img-top" alt="DisneyLand">
+                    <div class="card-body">
+                        <h5 class="card-title">DisneyLand</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat mollitia, laborum saepe magnam incidunt officiis odit. Earum quos reprehenderit,
+                            doloribus repudiandae eligendi explicabo fugit accusantium, rem natus molestias ipsam.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/gramado.jpg" class="card-img-top" alt="Gramado">
+                    <div class="card-body">
+                        <h5 class="card-title">Gramado</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat mollitia, laborum saepe magnam incidunt officiis odit. Earum quos reprehenderit,
+                            doloribus repudiandae eligendi explicabo fugit accusantium, rem natus molestias ipsam.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/europa-2.jpg" class="card-img-top" alt="europa2">
+                    <div class="card-body">
+                        <h5 class="card-title">Europa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                            repellat mollitia, laborum saepe magnam incidunt officiis odit. Earum quos reprehenderit,
+                            doloribus repudiandae eligendi explicabo fugit accusantium, rem natus molestias ipsam.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Fim do container -->
+    </div>
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"> </script>
+</body>
+
+</html>
+<!-- Tirado de https://getbootstrap.com/
+    Usado carosel
+    Card
+    nav.bar -->
